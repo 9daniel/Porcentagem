@@ -1,0 +1,34 @@
+html{
+    margin: 0;
+}
+.grafico{
+    background-image: url(../img/fundo.png);
+    height: auto;
+    width: 500px;
+    margin: 20px;
+    float: left;
+}
+.barra{
+    height: 60px;
+    width: auto;
+}
+.cilindro{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 40px;
+    width: 0px;
+    transition: width 1s;
+    background: linear-gradient(gray,rgb(73, 73, 73));
+}
+.redondo{
+    margin-left: -20px;
+    height: 40px;
+    width: 40px;
+    background-color: #616161;
+    border-radius: 50%;
+    transition: margin 1s;
+    float: left;
+}
+#inputs > div {
+    height: 42.4px;
+}
